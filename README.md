@@ -1,17 +1,22 @@
-<<<<<<< HEAD
-# Autonomous Navigation Project
+# Localization Project
 
 ## Project Overview
 
-This project presents a architecture for autonomous exploration and navigation using the Turtlebot robot in uncharted environments. It integrates a frontier-based exploration algorithm, high-resolution 2D Lidar for precise mapping, and advanced path planning with the Open Motion Planning Library (OMPL). The system ensures smooth navigation and real-time obstacle avoidance, validated through experiments in both real-world and simulated scenarios, demonstrating improved exploration capabilities and collision-free path planning.
+This work presents a Pose-Based EKF SLAM (Simultaneous Localization and Mapping) approach using the Iterative
+Closest Point (ICP) algorithm. The research focuses on the application of scan-matching techniques on a Kobuki Turtlebot platform.
+The proposed algorithm combines sensor data from a 2D lidar, IMU, and wheel encoders to perform real-time mapping and localization.
+Experiments were conducted in both simulation and real-world environments to evaluate the performance and effectiveness of the
+algorithm. While the results in the real-world experiments did not meet expectations, the simulation experiments demonstrated excellent
+mapping and localization accuracy. Additionally, a novel pose deletion approach called the MJP approach was proposed to manage the
+size of the state vector while preserving crucial pose history information.
 
-[Project Link](https://preeti-verma8600.github.io/autonomous_navigation.github.io).
+[Project Link](https://preeti-verma8600.github.io/localization.github.io).
 
 ### Project Members
 
-- Preeti Verma
 - Joseph Adeola
 - Moses Chuka Ebere
+- Preeti Verma
 
 ### Acknowledgments
 
@@ -19,5 +24,4 @@ The page template is borrowed from the Nerfies project page. Special thanks to t
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This website template is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 =======
-# perception.github.io
->>>>>>> origin/main
+
