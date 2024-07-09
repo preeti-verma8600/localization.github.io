@@ -22,5 +22,3 @@ size of the state vector while preserving crucial pose history information.
 
 The page template is borrowed from the Nerfies project page. Special thanks to the Nerfies team for their valuable contribution.
 
-=======
-
